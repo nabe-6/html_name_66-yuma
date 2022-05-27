@@ -1,0 +1,266 @@
+/* ここから下に記載していく */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav a {
+  /* background-color: aquamarine; */
+  width: 100px;
+  text-align: center;
+  line-height: 66px;
+  display: block;
+}
+
+nav a:hover {
+  background: gainsboro;
+}
+
+
+
+/* ここまでheader */
+
+
+
+/* li {
+  display: flex;
+  padding: 50px 20px;
+  flex: auto; */
+  
+/* } */
+
+
+
+.home-content {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: aliceblue;
+}
+
+
+.home-content p {
+  font-size: 20px;
+  margin: 10px 0 42px;
+}
+
+/* 見出し */
+
+.page-title {
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+}
+
+.bg {
+  background-size: 1000px ;
+  background-position: center;
+  padding: 6%;
+  /* background-repeat: no-repeat; */
+}
+
+#home {
+  background-image: url("../img/mainbg.png");
+}
+
+
+/* ここまで完成！！！！！！！！！！！！！！！ */
+
+
+
+
+section {
+  display: flex;
+  margin-top: 5%;
+ 
+}
+
+section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.pic {
+  width: auto;
+  margin-right: 30px;
+
+
+
+}
+
+.desc {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* width: 60px; */
+}
+
+.midasi {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 40px;
+  padding-top: 120px;
+
+}
+
+
+
+/* ここまで一応完
+
+*/
+
+/* ここから全体の装飾 */
+
+
+
+
+h1 {
+  font-size: 24px;
+  color: rgb(194, 194, 73);
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+
+h2 {
+  line-height: 50px;
+  padding-bottom: 10px;
+
+}
+.about-p {
+  display: flex;
+  justify-content: center;
+}
+
+
+main {
+  text-align: center;
+}
+
+/* ul {
+  display: flex;
+} */
+
+p {
+  padding: 10px;
+}
+
+.midasi-2 {
+  padding-bottom: 50px;
+}
+
+/* .piza {
+  display: flex;
+  flex: auto;
+
+} */
+
+.box-all {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-1:hover {
+  background-color: antiquewhite;
+}
+.box-2:hover {
+  background-color: antiquewhite;
+}
+.box-3:hover {
+  background-color: antiquewhite;
+}
+.piza-p {
+  width: 200px;
+  height: 150px;
+}
+
+.button {
+  /* line-height: 30px; */
+  /* width: 200px; */
+  color: aliceblue;
+  /* justify-content: center; */
+  background: aqua;
+  padding: 10px 32px;
+  
+
+
+}
+
+.iii {
+  margin-top: 50px;
+}
+.button:hover {
+  background: aquamarine;
+}
+
+#location {
+  padding: 3% 0;
+}
+
+#location .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-info p {
+  padding: 90px 20px 20px 10px;
+}
+
+.location-map {
+  width: 800px;
+}
+
+.contact-table {
+  width: 50%;
+  margin-bottom: 20px;
+  /* display: flex;
+  justify-content: space-between; */
+  margin-left: 26%;
+}
+
+.contact-body {
+  padding: 20px;
+  border: 1px solid black;
+  width: 600px;
+}
+.contact-item {
+  text-align: left;
+  width: 300px;
+  background-color: beige;
+}
+
+.form-select {
+  width: 180px;
+  padding: 5px;
+  border: 1px solid black;
+}
+.contact-wish {
+  display: block;
+}
+
+.contact-submit {
+  width: 200px;
+  background-color: rgb(116, 116, 35);
+  color: aliceblue;
+  font-weight: bold;
+  display: block;
+  border: none;
+  padding: 15px;
+  margin: auto;
+}
+
+footer {
+  background-color: cadetblue;
+  padding: 10px 0;
+  margin-top: 60px;
+}
+
+footer p {
+  color: aliceblue;
+  padding-left: 22%;
+}
